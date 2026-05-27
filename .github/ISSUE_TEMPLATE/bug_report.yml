@@ -1,0 +1,63 @@
+name: Bug Report
+description: Reportar um problema encontrado na plataforma
+title: "[BUG] "
+labels:
+  - Bug
+
+body:
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Ambiente em que ocorreu o problema:"
+      description: Em qual ambiente o problema foi identificado?
+      options:
+        - 🛠️ Dev
+        - 🚀 Produção
+        - 🔄 Dev | Produção
+
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Tipo de Bug:"
+      description: Selecione o tipo do problema
+      options:
+        - Bug Visual
+        - Bug Funcional
+        - Performance
+        - Responsividade
+        - Segurança
+        - Integração
+        - UX
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: "Detalhes do Bug:"
+      value: |
+        ## Descrição
+
+
+        ## Passos para Reproduzir
+
+        1.
+        2.
+        3.
+
+
+        ## Resultado Esperado
+
+
+        ## Resultado Obtido
+
+
+        ## Evidência
+
+        [Cole ou arraste a imagem aqui]
+
+    validations:
+      required: true

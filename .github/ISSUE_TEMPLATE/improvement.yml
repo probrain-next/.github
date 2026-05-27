@@ -1,0 +1,44 @@
+name: Sugestão de Melhoria
+description: Sugestão de melhoria para a plataforma
+title: "[MELHORIA] "
+labels:
+  - Sugestão de Melhoria
+
+body:
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Ambiente em que ocorreu o problema:"
+      description: Em qual ambiente a melhoria foi identificada?
+      options:
+        - 🛠️ Dev
+        - 🚀 Produção
+        - 🔄 Dev | Produção
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement_description
+    attributes:
+      label: "Detalhes da Melhoria:"
+      value: |
+        ## Descrição
+
+        ## Cenário
+
+        1.
+        2.
+        3.
+
+        ## Comportamento Atual
+
+        ## Comportamento Esperado
+
+        ## Impacto
+
+        ## Evidência
+
+        [Cole ou arraste a imagem aqui]
+    validations:
+      required: true
