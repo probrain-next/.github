@@ -1,6 +1,6 @@
 name: Novo Projeto de Jogo
 description: Template padrão para criação e acompanhamento de projetos de jogos
-title: "[JOGO]: "
+title: "[JOGO] "
 labels:
   - Projeto
   - Jogo
@@ -59,9 +59,11 @@ body:
       label: "ETAPA: PROTOTIPAGEM"
       options:
         - label: Repositório padronizado
-        - label: Branches
-        - label: Publish Export
-        - label: Conexão Repositório/GIT Issue
+
+        - label: "• ↳ Branches" 
+        - label: "• ↳ Publish Export" 
+        - label: "• ↳ Conexão Repositório/GIT Issue"
+
         - label: Protótipo Inicial
         - label: Análise em Ensaio Clínico
         - label: Correções
