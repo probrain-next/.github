@@ -9,8 +9,8 @@ body:
   - type: textarea
     id: links_acesso
     attributes:
-    label: "LINKS DE FÁCIL ACESSO"
-    value: |
+      label: "LINKS DE FÁCIL ACESSO"
+      value: |
         
         > [PASTA DO PROJETO - GDRIVE](<INSIRA_O_LINK_AQUI>)
         > [LINK DE TESTES - V1](<INSIRA_O_LINK_AQUI>)
