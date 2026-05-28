@@ -58,11 +58,11 @@ body:
     attributes:
       label: "ETAPA: PROTOTIPAGEM"
       options:
-        - label: Repositório padronizado
+        - label: 📁 Repositório padronizado
 
-        - label: "• ↳ Branches" 
-        - label: "• ↳ Publish Export" 
-        - label: "• ↳ Conexão Repositório/GIT Issue"
+        - label: " • ↳  Branches" 
+        - label: " • ↳  Publish Export" 
+        - label: " • ↳  Conexão Repositório/GIT Issue"
 
         - label: Protótipo Inicial
         - label: Análise em Ensaio Clínico
@@ -74,17 +74,17 @@ body:
     attributes:
       label: "ETAPA: ASSETS"
       options:
-        - label: Peças Gráficas & Telas
-        - label: IntroScene
-        - label: Gameplay
-        - label: ScoreScreen
-        - label: Cursores
-        - label: Assets Sonoros
-        - label: Música Tema
-        - label: Som competitivo (Opcional)
-        - label: FXs Sonoros
-        - label: Licenças
-        - label: Família tipográfica
+        - label: 🖼️ Peças Gráficas & Telas
+        - label: " • ↳  IntroScene"
+        - label: " • ↳  Gameplay"
+        - label: " • ↳  ScoreScreen"
+        - label: " • ↳  Cursores"
+        - label: 🔈 Assets Sonoros
+        - label: " • ↳  Música Tema"
+        - label: " • ↳  Som competitivo (Opcional)"
+        - label: " • ↳  FXs Sonoros"
+        - label: 🔤 Licenças
+        - label: " • ↳  Família tipográfica"
         - label: Homologação dos Assets
 
   - type: checkboxes
