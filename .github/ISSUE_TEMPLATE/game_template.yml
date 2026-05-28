@@ -6,10 +6,11 @@ labels:
   - Jogo
 
 body:
-  - type: markdown
+  - type: textarea
+    id: links_acesso
     attributes:
-      value: |
-        # LINKS DE FÁCIL ACESSO
+      value: 
+         LINKS DE FÁCIL ACESSO
 
         > [PASTA DO PROJETO - GDRIVE
         > [LINK DE TESTES - V1]
@@ -21,7 +22,7 @@ body:
         > [FGQ - FICHA TÉCNICA]
         > [ANEXO - INSPEÇÃO DE QUALIDADE]
         >
-        > [PROCESSO DE JOGOS]
+        > [PROCESSO DE JOGOS]"
 
         ---
 
