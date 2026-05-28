@@ -6,26 +6,24 @@ labels:
   - Jogo
 
 body:
-  - type: textarea
+  - type: markdown
     id: links_acesso
     attributes:
-      label: "Links de Acesso"
-      value: 
-         LINKS DE FÁCIL ACESSO
+      value: |
+        ## LINKS DE FÁCIL ACESSO
 
-        > [PASTA DO PROJETO - GDRIVE
-        > [LINK DE TESTES - V1]
-        > [BANCO]
-        > [AMBIENTE NEXTDEV]
-        >
-        > [FGQ - GDD]
-        > [FGQ - TEXTOS DO JOGO]
-        > [FGQ - FICHA TÉCNICA]
-        > [ANEXO - INSPEÇÃO DE QUALIDADE]
-        >
-        > [PROCESSO DE JOGOS]"
+        > [PASTA DO PROJETO - GDRIVE](<INSIRA_O_LINK_AQUI>)
+        > [LINK DE TESTES - V1](<INSIRA_O_LINK_AQUI>)
+        > [BANCO](<INSIRA_O_LINK_AQUI>)
+        > [AMBIENTE NEXTDEV](<INSIRA_O_LINK_AQUI>)
 
-        ---
+        > [FGQ - GDD](<INSIRA_O_LINK_AQUI>)
+        > [FGQ - TEXTOS DO JOGO](<INSIRA_O_LINK_AQUI>)
+        > [FGQ - FICHA TÉCNICA](<INSIRA_O_LINK_AQUI>)
+        > [ANEXO - INSPEÇÃO DE QUALIDADE](<INSIRA_O_LINK_AQUI>)
+        >
+        > [PROCESSO DE JOGOS](<INSIRA_O_LINK_AQUI>)"
+        
 
   - type: checkboxes
     id: contexto_inicial
