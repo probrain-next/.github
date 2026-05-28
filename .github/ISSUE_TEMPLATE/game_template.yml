@@ -6,12 +6,12 @@ labels:
   - Jogo
 
 body:
-  - type: markdown
+  - type: textarea
     id: links_acesso
     attributes:
-      value: |
-        ## LINKS DE FÁCIL ACESSO
-
+    label: "LINKS DE FÁCIL ACESSO"
+    value: |
+        
         > [PASTA DO PROJETO - GDRIVE](<INSIRA_O_LINK_AQUI>)
         > [LINK DE TESTES - V1](<INSIRA_O_LINK_AQUI>)
         > [BANCO](<INSIRA_O_LINK_AQUI>)
@@ -24,6 +24,7 @@ body:
         >
         > [PROCESSO DE JOGOS](<INSIRA_O_LINK_AQUI>)"
         
+        ---
 
   - type: checkboxes
     id: contexto_inicial
