@@ -1,0 +1,126 @@
+name: Novo Projeto de Jogo
+description: Template padrão para criação e acompanhamento de projetos de jogos
+title: "[JOGO]: "
+labels:
+  - Projeto
+  - Jogo
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # LINKS DE FÁCIL ACESSO
+
+        > [PASTA DO PROJETO - GDRIVE]()
+        > [LINK DE TESTES - V1]()
+        > [BANCO]()
+        > [AMBIENTE NEXTDEV]()
+        >
+        > [FGQ - GDD]()
+        > [FGQ - TEXTOS DO JOGO]()
+        > [FGQ - FICHA TÉCNICA]()
+        > [ANEXO - INSPEÇÃO DE QUALIDADE]()
+        >
+        > [PROCESSO DE JOGOS]()
+
+        ---
+
+  - type: checkboxes
+    id: contexto_inicial
+    attributes:
+      label: "ETAPA: CONTEXTO INICIAL"
+      options:
+        - label: Proposta
+        - label: Homologação do Contexto Inicial (Verbalmente em reunião)
+        - label: Amb. de compartilhamento (GDrive)
+        - label: Card do GIT
+
+  - type: checkboxes
+    id: fgq_gdd
+    attributes:
+      label: "ETAPA: FGQ - GDD"
+      options:
+        - label: Reunião de confecção do GDD Inicial
+        - label: Reunião de Apresentação do GDD
+        - label: Homologação do GDD Final
+
+  - type: checkboxes
+    id: banco
+    attributes:
+      label: "ETAPA: BANCO (Opcional)"
+      options:
+        - label: Banco Inicial
+        - label: Inspeção Técnico Científico
+        - label: Homologação do Banco
+
+  - type: checkboxes
+    id: prototipagem
+    attributes:
+      label: "ETAPA: PROTOTIPAGEM"
+      options:
+        - label: Repositório padronizado
+        - label: Branches
+        - label: Publish Export
+        - label: Conexão Repositório/GIT Issue
+        - label: Protótipo Inicial
+        - label: Análise em Ensaio Clínico
+        - label: Correções
+        - label: Homologação do Protótipo
+
+  - type: checkboxes
+    id: assets
+    attributes:
+      label: "ETAPA: ASSETS"
+      options:
+        - label: Peças Gráficas & Telas
+        - label: IntroScene
+        - label: Gameplay
+        - label: ScoreScreen
+        - label: Cursores
+        - label: Assets Sonoros
+        - label: Música Tema
+        - label: Som competitivo (Opcional)
+        - label: FXs Sonoros
+        - label: Licenças
+        - label: Família tipográfica
+        - label: Homologação dos Assets
+
+  - type: checkboxes
+    id: projeto
+    attributes:
+      label: "ETAPA: PROJETO"
+      options:
+        - label: Build de Testes
+        - label: Animações
+        - label: Revisão de Textos
+        - label: Testes de Inspeção de Qualidade
+        - label: Testes de Ensaio Clínico
+        - label: Correções
+        - label: Homologação dos Textos
+        - label: Homologação QA
+        - label: Homologação Testes Clínicos
+
+  - type: checkboxes
+    id: plataforma
+    attributes:
+      label: "ETAPA: PLATAFORMA"
+      options:
+        - label: Ficha Técnica
+        - label: Conteúdo para a Lojinha
+        - label: Medalhas
+        - label: Banner de Lançamento
+        - label: Preparação de NextDev
+        - label: Otimização do Jogo
+        - label: Inspeção de Qualidade (QA - Banco, Medalha e Performance)
+        - label: Inspeção Clínica (Ficha Técnica e Banner)
+        - label: Homologação Técnico Científico
+        - label: Homologação QA
+
+  - type: checkboxes
+    id: pos_projeto
+    attributes:
+      label: "ETAPA: PÓS PROJETO"
+      options:
+        - label: Comunicação Marketing
+        - label: Suporte de Assets ao Marketing
+        - label: Lançamento
