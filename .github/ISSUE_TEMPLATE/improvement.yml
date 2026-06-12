@@ -25,19 +25,14 @@ body:
     attributes:
       label: "Detalhes da Melhoria:"
       value: |
-        ## Descrição
+        ## Descrição:
 
-        ## Cenário
+        ## Objetivo:
 
-        1.
-        2.
-        3.
+        ## Requisitos sugeridos:
 
-        ## Comportamento Atual
+        ## Benefícios esperados:
 
-        ## Comportamento Esperado
-
-        ## Impacto
 
         ## Evidência
 
