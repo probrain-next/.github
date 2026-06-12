@@ -6,14 +6,16 @@ labels:
 
 body:
   - type: dropdown
-    id: environment
+    id: product
     attributes:
-      label: "Ambiente em que ocorreu o problema:"
-      description: Em qual ambiente a melhoria foi identificada?
+      label: "Produto que será melhorado:"
+      description: Em qual produto a melhoria foi identificada?
       options:
-        - 🛠️ Dev
-        - 🚀 Produção
-        - 🔄 Dev | Produção
+        - Afinando
+        - Audiofoco
+        - AudBility
+        - Admin
+        - Outros
 
     validations:
       required: true
